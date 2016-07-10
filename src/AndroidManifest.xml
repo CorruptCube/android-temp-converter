@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="wetsch.simpletemperatureconverter"
+    android:versionCode="8"
+    android:versionName="@string/version_name"
+    android:installLocation="internalOnly">
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/thermometer"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        <activity
+            android:name="wetsch.simpletemperatureconverter.MainActivity"
+            android:label="@string/app_name"
+            android:configChanges="orientation|screenSize|keyboardHidden">
+            
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Preferences"
+            android:label="@string/app_name"
+            android:theme="@style/whitetext" >          
+            <intent-filter>
+                <action android:name="wetsch.simpletemperatureconverter.Preferences" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".AboutAppMessage"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Dialog" >          
+            
+            <intent-filter>
+                 <action android:name="wetsch.simpletemperatureconverter.AboutAppMessage" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+    </application>
+
+</manifest>

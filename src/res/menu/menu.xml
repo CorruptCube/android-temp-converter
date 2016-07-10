@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="wetsch.simpletemperatureconverter.MainActivity" >
+
+    <item
+        android:id="@+id/clear_all"
+        android:orderInCategory="100"
+        android:title="@string/options_menu_clear_all"
+        app:showAsAction="ifRoom"/>
+    
+    <item
+        android:id="@+id/action_Preferences"
+        android:orderInCategory="101"
+        android:title="@string/options_menu_Preferences"
+        app:showAsAction="never"/>
+    
+    <item
+        android:id="@+id/action_About"
+        android:orderInCategory="102"
+        android:title="@string/options_menu_about"
+        app:showAsAction="never"/>
+    
+
+</menu>

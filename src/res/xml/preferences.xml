@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <ListPreference 
+        android:title="Set rounding option"
+        android:key="rounding_option"
+        android:summary="Round answer to"
+        android:entries="@array/roundlist"
+        android:entryValues="@array/roundvalues"/>
+    <CheckBoxPreference
+		android:key="auto_hide_keyboard"
+		android:title="Hide keyboard"
+		android:defaultValue="false"
+        android:summaryOn="Auto hide keyboard enabled."
+        android:summary="Hide on convert button result.">
+    </CheckBoxPreference>
+        
+    <Preference
+        android:title="Version"
+        android:defaultValue="0"
+        android:summary="version number"
+        android:key="version_number"
+        android:selectable="false">
+    </Preference>
+        
+	
+</PreferenceScreen>

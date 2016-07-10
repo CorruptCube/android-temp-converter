@@ -1,0 +1,21 @@
+if you experience any issues with the application such as unexpected crashing, please contact the 
+developer via the email link made available by the Google Play Store.  
+Thank you and enjoy.  
+\n\n
+Changes:
+\u2022
+GUI Updates.
+\u2022
+Removed double tap to show keyboard when hidden. Conflicted with (Android accessibility).
+\u2022
+Added fling up from below convert button to show keyboard when hidden.
+\n\n
+Features:
+\u2022
+Auto hide keyboard when convert or return button is pressed.
+\u2022
+Set rounding mode.
+\u2022
+Fling up with finger below convert button to show soft input keyboard.
+\n\n
+Press back key on device, or tap outside dialog to close this window.

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+    <string name="app_name">Simple Temperature Converter</string>
+    <string name="version_name">2.0</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Opions Menu -->
+ 	<string name="options_menu_clear_all">Clear</string>
+    <string name="options_menu_Preferences">Preferences</string>
+    <string name="options_menu_about">About</string>
+    
+    
+    <!-- Main Activity -->
+    <string name="calculate_button">Convert</string>
+    <string name="convertfromto">To</string>
+    <string name="et_convert_from_hint_text">From</string>
+    <string name="tv_convert_to_default_text">To</string>
+    
+    
+    
+</resources>

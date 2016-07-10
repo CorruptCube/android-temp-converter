@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+
+This file holds the layout for the tempurture conversion  activity.
+Color and styling of this layout is controlled from this XML file.
+ -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+	<LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+	    android:weightSum="100" >
+    <EditText
+        android:id="@+id/tv_input"
+        android:layout_weight="50"
+        android:textColor="@android:color/black"
+         android:background="@android:color/white"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:hint="@string/et_convert_from_hint_text"
+        android:inputType="numberSigned|numberDecimal">
+        <requestFocus />
+    </EditText>
+
+	<View 
+	    android:layout_width="40dp"
+	    android:layout_height="0dp"/>
+    <TextView
+        android:id="@+id/tv_answer"
+        android:textColor="@android:color/black"
+        android:background="@android:color/white"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="50"
+        android:scrollbars="vertical"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:hint="@string/tv_convert_to_default_text" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:paddingTop="1dp"
+        android:orientation="horizontal"
+       	android:layout_width="fill_parent"
+       	android:layout_height="wrap_content"
+       	android:weightSum="100">
+
+        <Spinner
+            android:id="@+id/convertfrom"
+            android:layout_weight="50"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+             />
+			<View 
+			    android:layout_width="40dp"
+			    android:layout_height="0dp"/>
+            <Spinner
+                android:id="@+id/convertto"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:layout_weight="50" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/calculate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/calculate_button"
+		android:background="@color/bluedark"
+        android:textColor="@drawable/convert_button_pressed_text_collor"
+        android:textSize="30sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp" />
+</LinearLayout>
