@@ -6,7 +6,6 @@ import wetsch.simpletemperatureconverter.R.id;
 import android.app.Activity;
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.content.pm.PackageManager.NameNotFoundException;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.support.v4.view.GestureDetectorCompat;
@@ -30,18 +29,14 @@ import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
-/* Version 1.4
+/* Version 2.1
  * This class is the main activity called by the Android manifest
  * This class extends Activity and implements OnClickListener.
  * The OnClickListener is used for the calculate button, and 
  * holds all of the code for the temperature conversions.
  * The arrayAdapter is used to populate the Spinners.
  * 
- * Removed double tap to show keyboard.  It conflicted with ripple tap for accessibility.
- * Added fling up to show keyboard.
- * Added recalculate on spinner item changed.
- * Add clear button to action bar.
- * 
+ *Changed how to application detects version updates to display about dialog.  
  */
 
 public class MainActivity extends Activity implements OnClickListener, OnKeyListener, OnDoubleTapListener, OnItemSelectedListener, OnGestureListener {
@@ -66,6 +61,8 @@ public class MainActivity extends Activity implements OnClickListener, OnKeyList
 		setContentView(R.layout.tempconvert);
 		buildObjects();
 		convertTo.setSelection(1);
+		Installation.checkVersion(this);
+
 		
 	}
 
@@ -200,7 +197,7 @@ public class MainActivity extends Activity implements OnClickListener, OnKeyList
 		 }
 	}
 
-	//Onclick method for calculate Button.
+	//On click method for calculate Button.
 	@Override
 	public void onClick(View v) {
 			if(checkForUserInput() && v.getId() == id.calculate){
@@ -224,17 +221,6 @@ public class MainActivity extends Activity implements OnClickListener, OnKeyList
 		roundingOption = Integer.parseInt(getPref.getString("rounding_option", "1"));
 		setupRounding();
 		autoHideKeyboard = getPref.getBoolean("auto_hide_keyboard", false);
-		String versionName = null;
-		try {
-			versionName = getPackageManager().getPackageInfo(getPackageName(), 0).versionName;
-			if(!getPref.getString("version_number", "0").equals(versionName)){
-				getPref.edit().putString("version_number", versionName).commit();
-				Intent aboutAppMessage = new Intent(this, AboutAppMessage.class);
-				startActivity(aboutAppMessage);
-			}
-			} catch (NameNotFoundException e) {
-			e.printStackTrace();
-		}
 	}
 
 	//Overriding the onResume method to update changes in the preferences

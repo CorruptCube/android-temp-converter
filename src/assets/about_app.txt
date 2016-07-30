@@ -4,11 +4,9 @@ Thank you and enjoy.
 \n\n
 Changes:
 \u2022
-GUI Updates.
+Updated how this dialog is shown on first installs or updates.
 \u2022
-Removed double tap to show keyboard when hidden. Conflicted with (Android accessibility).
-\u2022
-Added fling up from below convert button to show keyboard when hidden.
+Updated the API level.
 \n\n
 Features:
 \u2022

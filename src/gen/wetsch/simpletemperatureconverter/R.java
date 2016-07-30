@@ -997,8 +997,8 @@ containing a value of this type.
     }
     public static final class id {
         public static final int AboutAppMessage=0x7f0a003c;
-        public static final int action_About=0x7f0a0044;
-        public static final int action_Preferences=0x7f0a0043;
+        public static final int action_About=0x7f0a0045;
+        public static final int action_Preferences=0x7f0a0044;
         public static final int action_bar=0x7f0a001c;
         public static final int action_bar_activity_content=0x7f0a0001;
         public static final int action_bar_container=0x7f0a001b;
@@ -1013,12 +1013,12 @@ containing a value of this type.
         public static final int activity_chooser_view_content=0x7f0a0025;
         public static final int always=0x7f0a000f;
         public static final int beginning=0x7f0a0016;
-        public static final int calculate=0x7f0a0041;
+        public static final int calculate=0x7f0a0042;
         public static final int checkbox=0x7f0a002d;
-        public static final int clear_all=0x7f0a0042;
+        public static final int clear_all=0x7f0a0043;
         public static final int collapseActionView=0x7f0a0010;
-        public static final int convertfrom=0x7f0a003f;
-        public static final int convertto=0x7f0a0040;
+        public static final int convertfrom=0x7f0a0040;
+        public static final int convertto=0x7f0a0041;
         public static final int default_activity_button=0x7f0a0028;
         public static final int dialog=0x7f0a0014;
         public static final int disableHome=0x7f0a0009;
@@ -1034,6 +1034,7 @@ containing a value of this type.
         public static final int image=0x7f0a0027;
         public static final int listMode=0x7f0a0006;
         public static final int list_item=0x7f0a0029;
+        public static final int main_activity_layout=0x7f0a003d;
         public static final int middle=0x7f0a0018;
         public static final int never=0x7f0a0012;
         public static final int none=0x7f0a0019;
@@ -1060,8 +1061,8 @@ containing a value of this type.
         public static final int tabMode=0x7f0a0008;
         public static final int title=0x7f0a002b;
         public static final int top_action_bar=0x7f0a0020;
-        public static final int tv_answer=0x7f0a003e;
-        public static final int tv_input=0x7f0a003d;
+        public static final int tv_answer=0x7f0a003f;
+        public static final int tv_input=0x7f0a003e;
         public static final int up=0x7f0a0021;
         public static final int useLogo=0x7f0a000e;
         public static final int withText=0x7f0a0013;
@@ -1202,6 +1203,7 @@ containing a value of this type.
          */
         public static final int AppBaseTheme=0x7f0c0084;
         /**  Application theme. 
+ All customizations that are NOT specific to a particular API-level can go here. 
          */
         public static final int AppTheme=0x7f0c0085;
         /**  Mimic text appearance in select_dialog_item.xml 

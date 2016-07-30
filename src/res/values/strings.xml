@@ -2,7 +2,7 @@
 <resources>
 	
     <string name="app_name">Simple Temperature Converter</string>
-    <string name="version_name">2.0</string>
+    <string name="version_name">2.1</string>
     <string name="action_settings">Settings</string>
 
     <!-- Opions Menu -->
