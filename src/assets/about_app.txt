@@ -4,7 +4,7 @@ Thank you and enjoy.
 \n\n
 Changes:
 \u2022
-Updated how this dialog is shown on first installs or updates.
+Maintenance update...
 \u2022
 Updated the API level.
 \n\n

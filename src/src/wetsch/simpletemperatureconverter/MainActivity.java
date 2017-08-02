@@ -159,7 +159,7 @@ public class MainActivity extends Activity implements OnClickListener, OnKeyList
 			//Kelvin
 			case 2:
 				tempAnswer = TemperatureConversionFormulas.fahrenheitToKelvin(Double.parseDouble(inputTemp.getText().toString()));
-				answer.setText(decimalF.format(tempAnswer) + "\u00b0");
+				answer.setText(decimalF.format(tempAnswer) + " Kelvin");
 				break;
 			};
 		}
@@ -175,7 +175,7 @@ public class MainActivity extends Activity implements OnClickListener, OnKeyList
 			//Kelvin
 			case 2:
 				tempAnswer = TemperatureConversionFormulas.celsiusToKelvin(Double.parseDouble(inputTemp.getText().toString()));
-				answer.setText(decimalF.format(tempAnswer) + "\u00b0");
+				answer.setText(decimalF.format(tempAnswer) + " Kelvin");
 				break;
 			};
 

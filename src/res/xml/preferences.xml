@@ -6,7 +6,7 @@
         android:key="rounding_option"
         android:summary="Round answer to"
         android:entries="@array/roundlist"
-        android:entryValues="@array/roundvalues"/>
+        android:entryValues="@array/roundvalues" />
     <CheckBoxPreference
 		android:key="auto_hide_keyboard"
 		android:title="Hide keyboard"

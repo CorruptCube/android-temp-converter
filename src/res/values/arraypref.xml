@@ -2,25 +2,40 @@
 <resources>
 <string-array name="roundlist">
     
-    <item>1 decimal place</item>
-    <item>2 decimal place</item>
-    <item>3 decimal place</item>
-    <item>4 decimal place</item>
-    <item>5 decimal place</item>
-    <item>6 decimal place</item>
-    
-    
-        
+    <item>@string/_1_decimal_place</item>
+    <item>@string/_2_decimal_place</item>
+    <item>@string/_3_decimal_place</item>
+    <item>@string/_4_decimal_place</item>
+    <item>@string/_5_decimal_place</item>
+    <item>@string/_6_decimal_place</item>        
 </string-array>
 
-<string-array name="roundvalues">
-    <item >1</item>
-    <item >2</item>
-    <item >3</item>
-    <item >4</item>
-    <item >5</item>
-    <item >6</item>    
-    
+<string name="_1_decimal_place" translatable="false">1 decimal place</string>
+<string name="_2_decimal_place" translatable="false">2 decimal place</string>
+<string name="_3_decimal_place" translatable="false">3 decimal place</string>
+<string name="_4_decimal_place" translatable="false">4 decimal place</string>
+<string name="_5_decimal_place" translatable="false">5 decimal place</string>
+<string name="_6_decimal_place" translatable="false">6 decimal place</string>
+
+<string-array name="roundvalues"> 
+    <item >@string/_1_</item>
+    <item >@string/_2_</item>
+    <item >@string/_3_</item>
+    <item >@string/_4_</item>
+    <item >@string/_5_</item>
+    <item >@string/_6_</item>
+            
     
 </string-array>
+
+<string name="_1_" translatable="false">1 decimal place</string>
+<string name="_2_" translatable="false">1 decimal place</string>
+<string name="_3_" translatable="false">1 decimal place</string>
+<string name="_4_" translatable="false">1 decimal place</string>
+<string name="_5_" translatable="false">1 decimal place</string>
+<string name="_6_" translatable="false">1 decimal place</string>
+
 </resources>
+
+
+      

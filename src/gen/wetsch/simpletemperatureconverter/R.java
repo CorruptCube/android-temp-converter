@@ -1124,6 +1124,18 @@ containing a value of this type.
         public static final int menu=0x7f0e0000;
     }
     public static final class string {
+        public static final int _1_=0x7f0b0013;
+        public static final int _1_decimal_place=0x7f0b000d;
+        public static final int _2_=0x7f0b0014;
+        public static final int _2_decimal_place=0x7f0b000e;
+        public static final int _3_=0x7f0b0015;
+        public static final int _3_decimal_place=0x7f0b000f;
+        public static final int _4_=0x7f0b0016;
+        public static final int _4_decimal_place=0x7f0b0010;
+        public static final int _5_=0x7f0b0017;
+        public static final int _5_decimal_place=0x7f0b0011;
+        public static final int _6_=0x7f0b0018;
+        public static final int _6_decimal_place=0x7f0b0012;
         /**  Content description for the action bar "home" affordance. [CHAR LIMIT=NONE] 
          */
         public static final int abc_action_bar_home_description=0x7f0b0001;
@@ -1164,20 +1176,20 @@ containing a value of this type.
         /**  Description of a share target (both in the list of such or the default share button) in a ShareActionProvider (share UI). [CHAR LIMIT=NONE] 
          */
         public static final int abc_shareactionprovider_share_with_application=0x7f0b000b;
-        public static final int action_settings=0x7f0b000f;
-        public static final int app_name=0x7f0b000d;
+        public static final int action_settings=0x7f0b001b;
+        public static final int app_name=0x7f0b0019;
         /**  Main Activity 
          */
-        public static final int calculate_button=0x7f0b0013;
-        public static final int convertfromto=0x7f0b0014;
-        public static final int et_convert_from_hint_text=0x7f0b0015;
-        public static final int options_menu_Preferences=0x7f0b0011;
-        public static final int options_menu_about=0x7f0b0012;
+        public static final int calculate_button=0x7f0b001f;
+        public static final int convertfromto=0x7f0b0020;
+        public static final int et_convert_from_hint_text=0x7f0b0021;
+        public static final int options_menu_Preferences=0x7f0b001d;
+        public static final int options_menu_about=0x7f0b001e;
         /**  Opions Menu 
          */
-        public static final int options_menu_clear_all=0x7f0b0010;
-        public static final int tv_convert_to_default_text=0x7f0b0016;
-        public static final int version_name=0x7f0b000e;
+        public static final int options_menu_clear_all=0x7f0b001c;
+        public static final int tv_convert_to_default_text=0x7f0b0022;
+        public static final int version_name=0x7f0b001a;
     }
     public static final class style {
         /** 
